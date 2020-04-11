@@ -1,5 +1,5 @@
 # CNN CIFAR10 gradcam cutout
-Improving generalization and reducing overfitting using cutout for better generalization
+Improving generalization and reducing overfitting using cutout on the CIFAR10 data set
 
 ## References
 
@@ -20,6 +20,11 @@ Improving generalization and reducing overfitting using cutout for better genera
 ## Observations
 
 - Without Cutout : 81.44 % test accuracy on CIFAR
+
+![](cifar_without_cutout.jpeg)
+
 - With Cutout    : 83.98 % test accuracy on CIFAR
+
+![](cifar_cutout.png)
 
 
